@@ -1,0 +1,65 @@
+/* .logo-container {
+    display: flex;
+    align-items: center;
+    padding: 1px;
+} */
+
+.full-name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: smaller;
+    font-weight: bold;
+    color: white;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#menu-button {
+    border: none;
+    width: 50px;
+    height: 40px;
+    border-radius: 2px;
+    background-image: url("assets/square3.png");
+    background-size: 100%;
+    background-position: center;
+    /* background: transparent; */
+}
+.sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#gapp{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+#vv{
+    color: white;
+}
+
+.logo-container {
+    border: none;
+    width: 50px;
+    height: 40px;
+    margin: 0px;
+    border-radius: 2px;
+    background-image: url("assets/JC Logo Design.jpeg");
+    background-size: 100%;
+    background-position: center;
+    /* background: transparent; */
+}
+
+.hamburger-icon {
+width: 100%;
+height: 100%;
+}
+
+body {
+    background-image: url(assets/67235.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

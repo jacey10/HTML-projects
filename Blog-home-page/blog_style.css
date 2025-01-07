@@ -1,0 +1,63 @@
+.main-header {
+    text-align: center;
+    background-color: burlywood;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+#blog-container {
+    overflow: hidden;
+    width: 100%;
+    height: 1%;
+    padding: 1px;
+    word-wrap: break-word;
+    background-color: white;
+}
+
+.main-article {
+    float: left;
+    width: 60%;
+    margin: 1%;
+    padding: 1%;
+    color: teal; font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: linen;
+    overflow: hidden;
+}
+
+.sidebar {
+    float: right;
+    width: 32%;
+    margin: 1%;
+    padding: 10px;
+    box-shadow: 5px rgba(1, 1, 1, 1);
+    background-color: lightcyan;
+    
+}
+
+table, th, tr, td, caption {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+.topic {
+    color: purple;
+}
+
+
+.main-footer {
+    clear: both;
+    text-align: center;
+    background-color: burlywood;
+    color: black;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+

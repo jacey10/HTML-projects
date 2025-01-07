@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="main_styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+         <a href="#"><img class="logo" src="assets/JC Logo Design.jpeg" alt="My company logo"></a>
+         <span class="logo-text">James Chima</span>
+        </div>
+    </header>
+
+    <img src="assets/hamburger_icon.png" alt="Menu" class="menu-icon" id="menuIcon">
+
+    <div class="menu-overlay" id="menuOverlay">
+        <button class="close-btn" id="closeBtn">X</button>
+        <nav>
+            <a href="#about">About me</a>
+            <a href="#my-skills">My expertise</a>
+            <a href="#projects"> My projects</a>
+            <a href="#contact">Contact me</a>
+        </nav>
+    </div>
+
+    <section class="hero-section">
+       
+        <figure class="profile">
+            <img class="display-picture" src="my_images/jaycee.png" alt="my photo">
+            <figcaption style="color: plum; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-left: 120px; font-size: small;">My humble self in 202X</figcaption>
+        </figure>
+
+        <div class="hero-text">
+            <h1>Hi there, I'm James Chima</h1>
+            <p>A <span style="color: darkcyan;">Frontend Engineer</span> specialized in creating engaging <span style="color: darkcyan;">UI</span>, bringing ideas and products to <span style="color: darkcyan;">life</span>.</p>
+
+            <nav class="navs">
+                <ul>
+                    <li><a href="#about" style="color: plum;">More about me</a></li>
+                    <li><a href="#projects" style="color: plum; text-align: right;">See my work</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </section>
+
+    <section id="about">
+        
+        <h2>About Me</h2>
+
+        <span class="text">Hi there! I'm James Chima, a passionate and motivated aspiring frontend developer. I specialize in creating clean, user-friendly websites that combine functionality with great design. Currently, I'm refining my skills in <b>HTML, CSS and JavaScript</b>, and I'm eager to dive deeper into modern web development technologies.  </span>
+            
+        <h3>My Journey</h3>
+            
+        <span class="text">What started as a curiosity about how websites are built has quickly turned into a passion for web development. As a beginner, I'm committed to continuous learning and improving my craft to turn ideas into interactive digital experiences. </span> 
+            
+        <h3>My Mission</h3>
+            
+        <span class="text">I aim to help businesses and individuals build beautiful and accessible websites that leave a lasting impression. Whether it's crafting engaging user interfaces or improving website performance, I'm all about providing value through code. </span> 
+            
+        <h3>A Bit More About Me </h3>
+            
+        <span class="text">When I'm not coding, I enjoy exploring new design trends, reading tech blogs, or solving mathematical problems. These activities inspire my creativity and help me bring fresh ideas to my work.</span>  
+            
+        <h3>What's Next? </h3>
+            
+        <span class="text">I'm excited to grow as a frontend developer and take on new challenges that push me to be better. If you're looking for someone enthusiastic, adaptable, and ready to learn, I'd love to collaborate on your next project!</span>  
+
+    </section>
+
+    <script>
+        const menuIcon = document.getElementById("menuIcon")
+        const menuOverlay = document.getElementById("menuOverlay")
+        const closeBtn = document.getElementById("closeBtn")
+
+        menuIcon.addEventListener("click", () => {
+            menuOverlay.classList.add("active");
+            menuIcon.style.display = "none";
+        });
+
+        closeBtn.addEventListener("click", () => {
+            menuOverlay.classList.remove("active");
+            menuIcon.style.display = "block";
+        });
+    </script>
+</body>    
